@@ -22,7 +22,7 @@ include /usr/share/dpkg/default.mk
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
-	-DDLIB_NO_GUI_SUPPORT=ON
+	-DDLIB_NO_GUI_SUPPORT=ON -DDLIB_USE_CUDA=OFF
 
 override_dh_auto_install:
 	dh_auto_install

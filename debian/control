@@ -11,7 +11,7 @@ Vcs-Browser: https://github.com/severin-lemaignan/dlib-debian
 Package: libdlib-dev
 Section: libdevel
 Architecture: any
-Depends: libdlib18 (= ${binary:Version}), ${misc:Depends}
+Depends: libdlib19 (= ${binary:Version}), ${misc:Depends}
 Description: C++ toolkit for machine learning and computer vision - development
  Dlib is a general purpose cross-platform open source software library written
  in the C++ programming language. It now contains software components for
@@ -22,7 +22,7 @@ Description: C++ toolkit for machine learning and computer vision - development
  .
  This package contains the development headers.
 
-Package: libdlib18
+Package: libdlib19
 Architecture: any
 Depends: libdlib-data, ${shlibs:Depends}, ${misc:Depends}
 Description: C++ toolkit for machine learning and computer vision - library

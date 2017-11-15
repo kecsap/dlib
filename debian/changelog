@@ -1,3 +1,9 @@
+dlib (19.7-1~git20171116~ppa1) xenial; urgency=low
+
+  * Update to latest git version
+
+ -- Csaba Kertesz <csaba.kertesz@gmail.com>  Tue, 14 Nov 2017 23:22:04 +0200
+
 dlib (18.18-1) unstable; urgency=low
 
   * Initial release. (Closes: #800531)
